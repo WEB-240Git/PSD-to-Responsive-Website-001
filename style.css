@@ -315,4 +315,13 @@ header nav li {
     cursor: pointer;
   }
 
+  header nav ul {
+   height: 0;
+   overflow: hidden;
+  }
+  header nav ul.open {
+   height: auto;
+  }
+
+  }
 }
