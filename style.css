@@ -1,20 +1,18 @@
 * {
-  font-family: Trebuchet MS;
+  font-family: "Trebuchet MS";
 }
 
-body,
-ul,
-li {
+body, ul, li {
   margin: 0;
   padding: 0;
 }
 
-p,li,h1,h2,h3,h4 {
+p, li, h1, h2,h3, h4 {
   color: #4e4e4e;
 }
 
 body {
-  background: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 .wrapper {
@@ -25,7 +23,7 @@ body {
 }
 
 header {
-  margin: 0;
+  background: #e5e5e5;
   padding: 20px 0;
 }
 
@@ -54,7 +52,7 @@ header nav h2 {
 }
 
 header nav li {
-  list-style: none;
+  list-style-type: none;
   float: left;
   margin-left: 20px;
   margin-top: 10px;
@@ -62,15 +60,14 @@ header nav li {
 
 header nav li a {
   text-decoration: none;
-  color: #484848;
+  color: #4e4e4e;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-header nav li a.current {
+header nav li a.current{
   color: #1abb9c;
 }
-
 
 #main-banner img {
   width: 100%;
@@ -87,7 +84,7 @@ header nav li a.current {
 
 #selling-points li {
   float: left;
-  widows: 23%;
+  width: 23%;
   padding: 1%;
   text-align: center;
   list-style-type: none;
@@ -118,15 +115,13 @@ header nav li a.current {
   list-style-type: none;
 }
 
-
 #latest-work img {
   width: 100%;
 }
 
 #latest-work li:nth-child(2) {
-  margin: 0 2%
+  margin: 0 2%;
 }
-
 
 #latest-work:after {
   display: block;
@@ -134,7 +129,7 @@ header nav li a.current {
   clear: both;
 }
 
-#latest-work h3 {
+#latest-work h2 {
   margin-bottom: 0;
 }
 
@@ -147,7 +142,6 @@ p.tags {
   font-size: 14px;
   margin-top: 5px;
 }
-
 
 #quote {
   margin-top: 60px;
@@ -162,7 +156,7 @@ p.tags {
 }
 
 footer {
-  background: #202020;
+  background-color: #202020;
   padding: 30px 0;
   border-top: 10px solid #151515;
 }
@@ -196,7 +190,7 @@ footer li {
 
 footer li.tw {
   padding-left: 20px;
-  background: url(images/tweet.fw.png) no-repeat left 6px;
+  background: url(images/tweet.png) no-repeat left 6px;
 }
 
 #copyright {
@@ -210,7 +204,7 @@ footer li.tw {
   font-size: 14px;
 }
 
-/* MEDIA QUERIES */
+/* Media Queries */
 
 @media screen and (max-width: 960px) {
 
@@ -224,7 +218,7 @@ footer li.tw {
     width: 50%;
   }
 
-  footer ul:nth-child(odd) {
+  footer ul: nth-child(odd) {
     clear: both;
   }
 
@@ -232,9 +226,7 @@ footer li.tw {
     width: 90%;
     padding: 40px 5%;
   }
-
 }
-
 
 @media screen and (max-width: 768px) {
 
@@ -257,7 +249,9 @@ footer li.tw {
   #latest-work li {
     width: 60%;
     margin: 30px 20% !important;
+    float: none;
   }
+
   #latest-work h2 {
     text-align: center;
   }
@@ -270,37 +264,42 @@ footer li.tw {
     padding: 0 10%;
     margin: 20px 0;
   }
+
   #latest-work li {
     width: 80%;
     margin: 30px 10% !important;
   }
+
   #quote {
     font-size: 16px;
     font-weight: bold;
   }
+
   footer ul {
     width: 100%;
     float: none;
     border-top: 2px solid #333;
   }
 
-}
-
-header nav li {
+  header nav li {
     float: none;
     width: 100%;
     margin: 0;
   }
+
   header nav {
     background: #555;
   }
+
   header .wrapper {
     padding: 0;
     width: 100%;
   }
+
   header {
     padding-bottom: 0;
   }
+
   header nav li a {
     display: block;
     text-align: center;
@@ -308,6 +307,7 @@ header nav li {
     color: #999;
     border-top: 1px solid #4f4f4f;
   }
+
   #burger-nav {
     width: 100%;
     height: 40px;
@@ -316,12 +316,11 @@ header nav li {
   }
 
   header nav ul {
-   height: 0;
-   overflow: hidden;
-  }
-  header nav ul.open {
-   height: auto;
+    height: 0;
+    overflow: hidden;
   }
 
+  header nav ul.open {
+    height: auto;
   }
 }
