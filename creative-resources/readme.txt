@@ -16,4 +16,7 @@ If you use/modify the resources in your projects, we’d appreciate a linkback t
 
 -elemis
 Visit our portfolio: http://elemisfreebies.com/portfolio
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
